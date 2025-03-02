@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Memahami Orang Lain & Sabar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body class="bg-sky-950 text-white font-['Press_Start_2P'] flex">
+    <!-- Sidebar Navigation -->
+    <div class="w-64 h-screen p-10 flex flex-col space-y-4 justify-center">
+        <a href="/projects.html" class="mt-6 bg-yellow-400 text-black px-6 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition">
+    ← Kembali ke Project </a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col justify-center items-start px-10 relative text-center">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/asets/fathi.webp'); z-index: -1;"></div>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        
+        <div class="relative text-white">
+            <div class="bg-gray-800 px-8 py-8 rounded-lg shadow-lg bg-opacity-50">
+                <h1 class="text-4xl font-bold">Belajar Memahami & Sabar</h1>
+            </div>
+            
+            <!-- Cerita Interaktif -->
+            <div id="cerita" class="mt-10 bg-gray-800 px-8 py-6 rounded-lg shadow-lg bg-opacity-50">
+                <h2 class="text-2xl text-yellow-400">Cerita Interaktif</h2>
+                <p class="text-gray-300 mt-2">Saat seseorang marah padamu, bagaimana reaksimu?</p>
+                <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-md" onclick="jawaban('tenang')">Tetap Tenang</button>
+                <button class="mt-4 bg-red-500 text-black px-4 py-2 rounded-md" onclick="jawaban('emosi')">Balas dengan Emosi</button>
+                <p id="hasil" class="mt-4 text-gray-300"></p>
+            </div>
+            
+            <!-- Artikel Inspiratif -->
+            <div id="artikel" class="mt-10 bg-gray-800 px-8 py-6 rounded-lg shadow-lg bg-opacity-50">
+                <h2 class="text-2xl text-yellow-400">Artikel Inspiratif</h2>
+                <p class="text-gray-300 mt-2">Kesabaran bukan hanya menahan amarah, tetapi memahami sudut pandang orang lain. Sesungguhnya Allah bersama orang-orang sabar إِنَّ اللَّهَ مَعَ الصَّابِرِينَ.  .</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function jawaban(pilihan) {
+            let hasil = document.getElementById('hasil');
+            if (pilihan === 'tenang') {
+                hasil.innerText = 'Bagus! Dengan tetap tenang, kamu bisa memahami orang lain dengan lebih baik.';
+            } else {
+                hasil.innerText = 'Coba lebih bersabar. Memahami orang lain akan membantumu menghindari konflik.';
+            }
+        }
+    </script>
+</body>
+</html>

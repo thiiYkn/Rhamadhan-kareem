@@ -1,0 +1,28 @@
+1. cari tau html,css
+2. cari tau framework di webdev
+3. cari tau framework tailwind css, dan boostrap
+
+4. buek 1 halaman tampilan dari desain figma, bebas kalua nio desain surang rancak bana, harus menggunakan framework css, tailwind css, atau boostrap bebas nio pilih yang ma
+note:
+rekomendasi tailwind css
+Link figma
+https://www.figma.com/design/proW6lSN0Aqb3FfYwuewCf/Untitled?node-id=1-7&t=bMZlMVUznKfli8VF-0
+
+
+5. buek jo html, css
+ -> menggunakan warna #FFDF20
+ -> dan text Pixelify Sans
+noted :
+kecuali jo desain surang bebas
+
+link tutor
+https://tailwindcss.com/docs
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://dashboard.codepolitan.com/learn/courses/detail/membuat-halaman-website-portofolio-menggunakan-tailwind-css
+https://www.youtube.com/watch?v=LkR-9Z1sle8&t=305s&ab_channel=WebProgrammingUNPAS
+https://dashboard.codepolitan.com/learn/courses/detail/belajar-dasar-html
+https://dashboard.codepolitan.com/learn/courses/detail/belajar-dasar-css
+https://dashboard.codepolitan.com/learn/courses/detail/belajar-bootstrap-css-framework
+
+deadlane 7 hari pengerjaan
+

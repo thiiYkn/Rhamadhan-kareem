@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+</head>
+<body class="bg-sky-950 text-white font-['Press_Start_2P'] flex">
+    <!-- Sidebar Navigation -->
+    <div class="w-64 h-screen p-10 flex flex-col space-y-4 justify-center">
+        <a href="index.html" class="text-yellow-400 text-md hover:text-slate-200">• Home</a>
+        <a href="projects.html" class="text-yellow-400 text-md font-bold hover:text-slate-200">• Project</a>
+        <a href="gallery.html" class="text-yellow-400 text-md hover:text-slate-200">• Gallery</a>
+        <a href="blog.html" class="text-yellow-400 text-md hover:text-slate-200">• Blog</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-1 flex flex-col justify-center items-start px-10 relative text-center">
+        <!-- Background Image -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/asets/fathi.webp'); z-index: -1;"></div>
+        
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        
+        <!-- Content Box -->
+        <div class="relative text-white w-full">
+            <div class="bg-gray-800 px-8 py-8 rounded-lg shadow-lg inline-block bg-opacity-50">
+                <h1 class="text-6xl font-bold text-white">My Projects</h1>
+            </div>
+            
+            <div class="bg-gray-800 px-8 pb-20 pt-5 rounded-lg shadow-lg mt-11 bg-opacity-50 text-left">
+                <p class="text-gray-300">Berikut adalah beberapa project yang akan saya kerjakan:</p>
+                
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Project 1 -->
+                    <a href="/project/project-1.html" class="bg-gray-900 p-6 rounded-lg shadow-lg bg-opacity-50 hover:bg-gray-700 transition">
+                        <h2 class="text-xl font-bold text-yellow-400">Project 1</h2>
+                        <p class="text-gray-300 mt-2">Proses Menambah Pahala.</p>
+                    </a>
+                    
+                    <!-- Project 2 -->
+                    <a href="/project/project-2.html" class="bg-gray-900 p-6 rounded-lg shadow-lg bg-opacity-50 hover:bg-gray-700 transition">
+                        <h2 class="text-xl font-bold text-yellow-400">Project 2</h2>
+                        <p class="text-gray-300 mt-2">Proses Menambah Ilmu.</p>
+                    </a>
+                    
+                    <!-- Project 3 -->
+                    <a href="/project/project-3.html" class="bg-gray-900 p-6 rounded-lg shadow-lg bg-opacity-50 hover:bg-gray-700 transition">
+                        <h2 class="text-xl font-bold text-yellow-400">Project 3</h2>
+                        <p class="text-gray-300 mt-2">Proses Mengecilkan Perut :) .</p>
+                    </a>
+                    
+                    <!-- Project 4 -->
+                    <a href="/project/project-4.html" class="bg-gray-900 p-6 rounded-lg shadow-lg bg-opacity-50 hover:bg-gray-700 transition">
+                        <h2 class="text-xl font-bold text-yellow-400">Project 4</h2>
+                        <p class="text-gray-300 mt-2">Proses Memahami Diri.</p>
+                    </a>
+                    
+                    <!-- Project 5 -->
+                    <a href="/project/project-5.html" class="bg-gray-900 p-6 rounded-lg shadow-lg bg-opacity-50 hover:bg-gray-700 transition">
+                        <h2 class="text-xl font-bold text-yellow-400">Project 5</h2>
+                        <p class="text-gray-300 mt-2">Proses Menghargai Orang Lain.</p>
+                    </a>
+                    
+                    <!-- Project 6 -->
+                    <a href="/project/project-6.html" class="bg-gray-900 p-6 rounded-lg shadow-lg bg-opacity-50 hover:bg-gray-700 transition">
+                        <h2 class="text-xl font-bold text-yellow-400">Project 6</h2>
+                        <p class="text-gray-300 mt-2">Proses Mencari Wawasan.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
